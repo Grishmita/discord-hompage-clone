@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap');
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.csss">
+  </head>
+  <body>
+
+<!-- SECOND HEADER TAILWIND -->
+
+<nav class="bg-[#404eed]">
+    <div class="nav-bar grid grid-cols-4 font-[Roboto] w-[90%] my-[0] mx-auto items-center py-[25px] px-[0] max-lg:grid-cols-1 max-lg:gap-[20px]">
+        <div class="discord-logo">
+         <a href="#"><img class="w-[100%] max-w-[125px] block" src="images\discord-logo.png"></a>
+        </div>
+       <ul class="navbar-ul flex col-span-2 list-none justify-between text-[500] text-[15px] font-[500] max-lg:flex-col max-lg:gap-[10px]">
+        <li><a class="text-[#fff] no-underline font-[Roboto] hover:underline" href="#">Download</a></li>
+        <li><a class="text-[#fff] no-underline font-[Roboto] hover:underline" href="#">Nitro</a></li>
+        <li><a class="text-[#fff] no-underline font-[Roboto] hover:underline" href="#">Discover</a></li>
+        <li><a class="text-[#fff] no-underline font-[Roboto] hover:underline" href="#">Safety</a></li>
+        <li><a class="text-[#fff] no-underline font-[Roboto] hover:underline" href="#">Support</a></li>
+        <li><a class="text-[#fff] no-underline font-[Roboto] hover:underline" href="#">Blog</a></li>
+        <li><a class="text-[#fff] no-underline font-[Roboto] hover:underline" href="#">Careers</a></li>
+       </ul>
+       
+       <div class="navbar-btn-sec flex justify-end max-lg:justify-start">
+       <button class="navbar-btn bg-[#fff] font-['Roboto'] py-[13px] px-[19px] text-[13px] block rounded-[50px] border-[0] hover:shadow-lg">
+        <a class="hover:text-[#5865f2]" href="#">Open Discord</a>
+       </button>
+    </div>
+
+    </div>
+</nav>
+
+
+<header class="bg-[#404eed] text-[#fff] bg-[url('images/headerbg.png')] bg-center bg-no-repeat bg-cover overflow-hidden relative before:absolute before:content-[' '] before:bg-[url('images/header-left.png')] before:w-[700px] before:h-[355px] before:bg-center before:bg-no-repeat beforer:bg-cover before:left-[-370px] before:bottom-[0] max-lg:before:hidden after:absolute after:content-[' '] after:bg-[url('images/header-right.png')] after:w-[600px] after:h-[355px] after:bg-center after:bg-no-repeat after:bg-cover after:right-[-290px] after:bottom-[0] max-sm:after:hidden">
+
+    <div class="header-sec pt-[100px] pr-[0] pl-[0] pb-[150px] max-sm:pb-[0px]">
+        <div class="header-div w-[65%] my-[0] mx-auto text-center max-md:w-[60%] max-md:text-left max-lg:mx-[40px] max-sm:w-[90%] max-sm:ml-[40px]">
+            <h1 class="main-heading font-['Noto Sans JP'] text-[3.8rem] uppercase max-lg:leading-[55px] max-lg:text-left max-sm:text-[25px]">Imagine a place...</h1>
+            <p class="font-['Noto Sans JP'] text-[1.1rem] leading-[2rem] font-[300px] my-[25px] mx-[0] max-sm:leading-[25px] max-sm:text-[16px]">...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.</p>
+            <div class="header-btn flex justify-center gap-[15px] max-lg:flex-col">
+                <button class="window bg-[#fff] bg-[#fff] font-[Noto Sans JP] py-[15px] px-[30px] rounded-[50px] text-[18px] border-0  hover:shadow-xl max-lg:w-[75%] max-sm:hidden">
+                    <a class="no-underline font-[500] text-[#23272a] items-center flex gap-[5px] hover:text-[#5865f2]" href="#"><img src="images/download-headerbtn.png"> Download for Windows</a>
+                </button>
+                <button class="browserwindow bg-[#23272a] font-[Noto Sans JP] py-[15px] px-[30px] rounded-[50px] text-[18px] border-0]  hover:shadow-xl  hover:bg-[#36393f] max-lg:w-[75%] max-sm:hidden">
+                    <a class="no-underline font-[500] text-[#FFF] items-center flex gap-[5px]" href="#">Open Discord in your browser</a>
+                </button>
+
+                <button class="window bg-[#fff] bg-[#fff] font-[Noto Sans JP] py-[15px] px-[30px] rounded-[50px] text-[18px] border-0  hover:shadow-xl max-lg:w-[75%] hidden max-sm:block">
+                    <a class="no-underline font-[500] text-[#23272a] items-center flex gap-[5px] hover:text-[#5865f2]" href="#"><img src="images/download-headerbtn.png"> Download from Google Play</a>
+                </button>
+
+                <img  class="hidden max-sm:block max-sm:w-[100%] max-sm:max-w-[100%] max-sm:my-[0] max-sm:mx-auto max-sm:relative max-sm: left-[-90px]"src="images/header-left.png">
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<main>
+    <div class="container main1 w-[90%] mx-auto my-0">
+        <div class="main-div grid grid-cols-3 py-[75px] px-[0] gap-[30px] items-center max-lg:grid-cols-2">
+
+            <div class="main-div-left col-span-2 max-lg:grid-cols-1">
+              <img class="w-[100%] max-w-[90%] my-[0] mx-auto max-lg:max-w-[100%]" src="images\main-div1.png">
+            </div>
+
+            <div class="main-div-right max-lg:col-span-2">
+              <h2 class="font-['Roboto'] font-[900] text-[48px] text-[#23272a] max-lg:text-[30px] max-sm:text-[16px] max-sm:leading-[unset]">Create an invite-only place where you belong</h2>
+              <p class="text-[1.2rem] font-[300] leading-[2.1rem] max-lg:text-[1rem] max-sm:text-[16px] max-sm:leading-[unset]">Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+ <div class="bg-[#f6f6f6]">  
+    <div class="container main1 w-[90%] mx-auto my-0">
+        <div class="main-div2 grid grid-cols-3 py-[75px] px-[0] gap-[30px] items-center max-lg:grid-cols-2">
+
+            <div class="main-div-right max-lg:col-span-2 max-lg:row-end-2 max-lg:row-end-3">
+              <h2 class="font-['Roboto'] font-[900] text-[48px] text-[#23272a] max-lg:text-[30px] max-sm:text-[16px] max-sm:leading-[unset]">Where hanging out is easy</h2>
+              <p class="text-[1.2rem] font-[300] leading-[2.1rem] max-lg:text-[1rem] max-sm:text-[16px] max-sm:leading-[unset]">Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.</p>
+            </div>
+
+            <div class="main-div-left col-span-2 max-lg:grid-cols-1">
+                <img class="w-[100%] max-w-[90%] my-[0] mx-auto max-lg:max-w-[100%]" src="images\main-div2.png">
+              </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+    <div class="container main1 w-[90%] mx-auto my-0">
+        <div class="main-div3 grid grid-cols-3 py-[75px] px-[0] gap-[30px] items-center	max-lg:grid-cols-2">
+
+            <div class="main-div-left col-span-2">
+              <img class="w-[100%] max-w-[87%] my-[0] mx-auto" src="images\main-div3.png">
+            </div>
+
+            <div class="main-div-right max-lg:col-span-2">
+              <h2 class="font-['Roboto'] font-[900] text-[48px] text-[#23272a] max-lg:text-[30px] max-sm:text-[16px] max-sm:leading-[unset]">From few to a fandom</h2>
+              <p class="text-[1.2rem] font-[300] leading-[2.1rem] max-lg:text-[1rem] max-sm:text-[16px] max-sm:leading-[unset]">Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="reliable-sec bg-[#f6f6f6] py-[100px] px-[0]">
+        <div class="container max-lg:max-w-[unset]">
+            <div class="reliable-div text-center my-0 mx-auto max-lg:max-w-[unset] max-sm:text-left">
+                <div class="w-[75%] my-[0] mx-auto max-lg:w-[90%]">
+                <h3 class="font-[Noto Sans JP] font-[800] text-[48px] text-[#23272a] uppercase max-lg:text-[30px]  max-sm:text-[25px]">Reliable tech for staying close</h3>
+                <p class="font-[300] text-[1.1rem] my-[20px] mx-auto leading-[2.5rem] max-lg:text-[1rem] max-lg:leading-[1.8rem] max-sm:leading-[unset]" >Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+               </div>
+                <img class="w-[100%] max-w-[90%] my-[0] mx-[auto]" src="images\reliableimg.png">
+            </div>
+        </div>
+
+        <div class="reliable-bottom w-[50%] mt-[30px] mx-[auto] mb-[0] text-center max-lg:w-[55%] max-sm:w-[100%]">
+            <img class="my-[0] mx-auto" src="images\bg-star.png">
+            <h4 class="font-[900] text-[1.8rem]">Ready to start your journey?</h4>
+            <button class="my-[20px] mx-auto">
+                    <a class="flex font-[400] text-[1.1rem] bg-[#5865f2] text-[#fff] rounded-[50px] gap-[10px] px-[30px] py-[15px] hover:shadow-lg" href="#"><img src="images/download-wh.png"> Download for Windows</a>
+            </button>
+            </div>
+
+
+
+
+    </div>
+
+</main>
+
+
+<footer class="bg-[#23272a]  py-[80px] px-[0px] pb-[0px]">
+    <div class="footer-sec w-[90%] my-[0px] mx-auto">
+
+        <div class="footer-div grid grid-cols-5 gap-[12%] my-[0] mx-auto max-lg:gap-[30px] max-lg:gap-[0] max-lg:grid-cols-3 max-sm:grid-cols-2 max-sm:gap-[55px]">
+            <div class="footer-div1 max-sm:col-span-2">
+                <h5 class="font-[900] text-[2.5rem] text-[#5865f2] leading-[30px]">Imagine a place</h5>
+                <div class="flex items-center  gap-[5px] my-[20px] mx-[0]">
+                    <img src="images\usa.png">
+                    <p class="text-[#fff] text-[14px] font-[200]">English, USA</p>
+                </div>
+                <ul class="ff-dv1 flex gap-[20px]">
+                    <li><a class="hover:cursor-pointer"href="#"><img src="images\twitter.png"></a></li>
+                    <li><a class="hover:cursor-pointer"href="#"><img src="images\ig.png"></a></li>
+                    <li><a class="hover:cursor-pointer"href="#"><img src="images\fb.png"></a></li>
+                    <li><a class="hover:cursor-pointer"href="#"><img src="images\youtube.png"></a></li>
+                </ul>
+            </div>
+
+            <div class="product">
+                <h6 class="text-[#5865f2] font-[300]">Product</h6>
+                <ul class="">
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Download</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Nitro</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Status</a></li>
+                </ul>
+        
+            </div>
+
+
+            
+            <div class="product">
+                <h6 class="text-[#5865f2] font-[300]">Company</h6>
+                <ul class="">
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">About</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Jobs</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Branding</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Newsroom</a></li>
+                    
+                </ul>
+        
+            </div>
+    
+    
+            <div class="product">
+                <h6 class="text-[#5865f2] font-[300]">Resources</h6>
+                <ul class="">
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">College</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Support</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Safety</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Blog</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Feedback</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Developers</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Streamkit</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Creators</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Community</a></li>
+                </ul>
+        
+            </div>
+    
+    
+    
+            <div class="product">
+                <h6 class="text-[#5865f2] font-[300]">Policies</h6>
+                <ul class="">
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Terms</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Privacy</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Cookie Settings</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Guidelines</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Acknowledgements</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Licenses</a></li>
+                    <li class="mx-[0] my-[5px]"><a  class="text-[#fff] font-[200] hover:underline" href="#">Moderation</a></li>
+                </ul>
+        
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <div class="footer-bottom py-[50px] 0">
+        <div class="footer-bottom-sec w-[90%] my-[0] mx-auto border-t-[1px] border-[#5865f2]">
+        <div class="footer-bottom-div flex justify-between py-[30px] px-[0]">
+         <img src="images\discord-logo.png">
+
+         <div class="">
+            <button>
+                <a  class="text-[#fff] font-[300] text-[13px] rounded-[50px] bg-[#5865f2] py-[10px] px-[20px]" href="#">
+                  Open Discord
+                </a>
+            </button>
+         </div>
+        </div>
+        </div>
+    </div>
+
+  
+
+</footer>
+
+
+
+	<script src="index.js"></script>
+  </body>
+</html>
